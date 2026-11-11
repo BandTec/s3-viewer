@@ -1,10 +1,10 @@
-# 📦 S3 Viewer — Visualizador de Arquivos CSV/JSON do S3
+# S3 Viewer — Visualizador de Arquivos CSV/JSON do S3
 
 Aplicação **Node.js + Express** para leitura de arquivos (CSV ou JSON) armazenados em **AWS S3**, exibindo seus dados na tela e gerando **gráficos dinâmicos com Chart.js**.
 
 ---
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 * 🔹 Leitura automática de arquivos armazenados no S3
 * 🔹 Detecção automática de formato (`JSON`, `CSV` ou `texto puro`)
@@ -14,7 +14,7 @@ Aplicação **Node.js + Express** para leitura de arquivos (CSV ou JSON) armazen
 
 ---
 
-## 🧱 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 📁 s3-viewer
@@ -30,7 +30,7 @@ Aplicação **Node.js + Express** para leitura de arquivos (CSV ou JSON) armazen
 
 ---
 
-## ⚙️ Pré-requisitos
+## Pré-requisitos
 
 Antes de começar, instale:
 
@@ -39,7 +39,7 @@ Antes de começar, instale:
 
 ---
 
-## 🧩 Instalação
+## Instalação
 
 Clone o repositório e instale as dependências:
 
@@ -51,7 +51,7 @@ npm install
 
 ---
 
-## 🔑 Configuração das variáveis de ambiente
+## Configuração das variáveis de ambiente
 
 Crie um arquivo `.env` na raiz do projeto com base no exemplo abaixo:
 
@@ -64,7 +64,7 @@ S3_KEY=exemplo.csv
 
 ---
 
-## ▶️ Executando o projeto
+## Executando o projeto
 
 ### Modo normal:
 
@@ -80,11 +80,11 @@ npm run dev
 
 A aplicação ficará disponível em:
 
-👉 **[http://localhost:3000](http://localhost:3000)**
+**[http://localhost:3000](http://localhost:3000)**
 
 ---
 
-## 🧠 Como funciona
+##  Como funciona
 
 1. O app conecta ao **AWS S3**.
 2. Busca o arquivo indicado (`S3_BUCKET` e `S3_KEY`).
@@ -93,7 +93,7 @@ A aplicação ficará disponível em:
 
 ---
 
-## 🧮 Exemplo de gráfico
+##  Exemplo de gráfico
 
 Se o CSV tiver colunas como:
 
@@ -108,7 +108,7 @@ O app exibirá um gráfico de barras com os alunos no eixo X e as notas no eixo 
 
 ---
 
-## 🧑‍💻 Tecnologias usadas
+## Tecnologias usadas
 
 | Tecnologia            | Função                                   |
 | --------------------- | ---------------------------------------- |
@@ -120,7 +120,7 @@ O app exibirá um gráfico de barras com os alunos no eixo X e as notas no eixo 
 
 ---
 
-## 📄 Licença
+## Licença
 
 Este projeto está sob a licença **MIT** — sinta-se livre para usar e modificar.
 Autor original: **Julia Lima**
